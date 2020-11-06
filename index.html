@@ -21,22 +21,12 @@
 
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/2020.css">
-
-  <link rel="preload" href="css/1980.css" as="style">
-  <link rel="preload" href="css/1988.css" as="style">
-  <link rel="preload" href="css/1992.css" as="style">
-  <link rel="preload" href="css/1996.css" as="style">
-  <link rel="preload" href="css/2000.css" as="style">
-  <link rel="preload" href="css/2004.css" as="style">
-  <link rel="preload" href="css/2008.css" as="style">
-  <link rel="preload" href="css/2012.css" as="style">
-  <link rel="preload" href="css/2016.css" as="style">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/colors.css">
 
 </head>
 
-<body>
+<body class="year-2020">
 
 <div class="map-info" role="header">
 
@@ -61,17 +51,17 @@
 </a>
 
 <ul role="navigation">
-  <li><a href="#" onclick="changeCSS('css/1980.css', 2); tagYear(this)">1980</a></li>
-  <li><a href="#" onclick="changeCSS('css/1984.css', 2); tagYear(this)">1984</a></li>
-  <li><a href="#" onclick="changeCSS('css/1988.css', 2); tagYear(this)">1988</a></li>
-  <li><a href="#" onclick="changeCSS('css/1992.css', 2); tagYear(this)">1992</a></li>
-  <li><a href="#" onclick="changeCSS('css/1996.css', 2); tagYear(this)">1996</a></li>
-  <li><a href="#" onclick="changeCSS('css/2000.css', 2); tagYear(this)">2000</a></li>
-  <li><a href="#" onclick="changeCSS('css/2004.css', 2); tagYear(this)">2004</a></li>
-  <li><a href="#" onclick="changeCSS('css/2008.css', 2); tagYear(this)">2008</a></li>
-  <li><a href="#" onclick="changeCSS('css/2012.css', 2); tagYear(this)">2012</a></li>
-  <li><a href="#" onclick="changeCSS('css/2016.css', 2); tagYear(this)">2016</a></li>
-  <li><a href="#" onclick="changeCSS('css/2020.css', 2); tagYear(this)" id="current-year">2020</a> *</li>
+  <li><button class="year-selector" id="year-1980">1980</button></li>
+  <li><button class="year-selector" id="year-1984">1984</button></li>
+  <li><button class="year-selector" id="year-1988">1988</button></li>
+  <li><button class="year-selector" id="year-1992">1992</button></li>
+  <li><button class="year-selector" id="year-1996">1996</button></li>
+  <li><button class="year-selector" id="year-2000">2000</button></li>
+  <li><button class="year-selector" id="year-2004">2004</button></li>
+  <li><button class="year-selector" id="year-2008">2008</button></li>
+  <li><button class="year-selector" id="year-2012">2012</button></li>
+  <li><button class="year-selector" id="year-2016">2016</button></li>
+  <li><button class="year-selector current-year" id="year-2020">2020</button>*</li>
 </ul>
 
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
